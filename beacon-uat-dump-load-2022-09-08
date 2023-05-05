@@ -1,0 +1,4 @@
+bin/rails db:environment:set RAILS_ENV=development
+rake db:drop db:create sigmaray:loadf[2022-09-08.elysium_uat.gtid-off.sql] sigmaray:disablea sigmaray:creates
+
+

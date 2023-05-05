@@ -1,0 +1,4 @@
+echo "hello"
+echo "~/bin is added to path"
+
+

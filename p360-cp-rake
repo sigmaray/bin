@@ -1,0 +1,2 @@
+rm ./lib/tasks/sigma360.rake
+cp ~/projects/pmhelpers/p360/lib/tasks/* ./lib/tasks/

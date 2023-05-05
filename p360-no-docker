@@ -1,0 +1,2 @@
+rm ~/projects/segmentation_engine/.env
+ln -s ~/projects/pmhelpers/p360/env.no-docker ~/projects/segmentation_engine/.env
