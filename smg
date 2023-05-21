@@ -1,0 +1,5 @@
+#!/bin/sh
+
+PATH=$HOME/.rvm/wrappers/ruby-2.5.1/:$PATH /usr/share/smartgit/bin/smartgit.sh "$@"
+
+

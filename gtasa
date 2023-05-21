@@ -1,0 +1,1 @@
+LANG=ru_RU.cp1251 wine  "$HOME/.wine/drive_c/Program Files (x86)/Rockstar Games/GTA San Andreas/gta_sa.exe"

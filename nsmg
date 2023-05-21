@@ -1,0 +1,6 @@
+#!/bin/sh
+
+noh /usr/share/smartgit/bin/smartgit.sh "$@" &
+
+
+

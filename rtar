@@ -1,0 +1,4 @@
+# echo "$1/tmp"
+tar --exclude="$1/tmp" --exclude="$1/log" --exclude="$1/node_modules" --exclude="$1/mylog.out" --exclude="$1/tmp" -zcvf $1__`date +%Y-%m-%d__%H-%M`.tgz elysium
+
+

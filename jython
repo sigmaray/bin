@@ -1,0 +1,4 @@
+#!/bin/sh
+# java -cp "$HOME/apps/clojure/*:$PWD" clojure.main "$@"
+java -jar $HOME/bin/jython-standalone-2.7.2.jar "$@"
+

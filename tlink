@@ -1,0 +1,1 @@
+wine ~/apps/tasm3/TLINK.EXE "$@"

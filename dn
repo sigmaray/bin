@@ -1,0 +1,3 @@
+dosbox -c "MOUNT D /home/foobar/dosroot" -c "D:/"
+
+

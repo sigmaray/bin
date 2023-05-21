@@ -1,0 +1,14 @@
+# https://www.cyberciti.biz/faq/how-to-use-sed-to-find-and-replace-text-in-files-in-linux-unix-shell/
+# https://thejspr.com/blog/use-sprockets-for-javascript-in-rails-6/
+
+sed -i '/# Transpile app-like JavaScript. Read more: https:\/\/github.com\/rails\/webpacker/d' ./Gemfile
+sed -i "/gem 'webpacker', '~> 5.0'/d" ./Gemfile
+bundle install
+# yarn remove @rails/webpacker.
+# rm -r config/webpacker.
+# rm config/webpack.yml.
+sed -i 's/javascript_pack_tag/javascript_include_tag/g' app/views/layouts/application.html.erb
+mkdir app/assets/javascripts
+touch app/assets/javascripts/application.js
+echo '//= link_directory ../javascripts .js' >> app/assets/config/manifest.js
+# echo '//= require jquery' >> app/assets/javascripts/application.js

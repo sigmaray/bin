@@ -1,0 +1,30 @@
+die () {
+    echo >&2 "$@"
+    exit 1
+}
+
+[ "$#" -eq 2 ] || die "2 arguments required, $# provided"
+
+FILE=$HOME/projects/elysium/$2
+echo $FILE
+
+if [[ -f $FILE ]]; then
+    echo "$FILE is a file"
+else
+    echo "$FILE is not valid file"
+    exit 1
+fi
+
+
+mkdir -p $HOME/projects/elysiumpatches
+
+BASEDIR=$(dirname "$2")
+echo "basedir is $BASEDIR"
+
+TOCREATE=$HOME/projects/elysiumpatches/$1/$BASEDIR
+echo "creating $TOCREATE"
+mkdir -p $TOCREATE
+
+echo "cp $HOME/projects/elysium/$2 $HOME/projects/elysiumpatches/$1/$2"
+cp $HOME/projects/elysium/$2 $HOME/projects/elysiumpatches/$1/$2
+#app/workers/base_sending_worker.rb

@@ -1,0 +1,3 @@
+#!/bin/sh
+~/stable/multipstopwatch/.venv/bin/python3 $HOME/myprojects/multipstopwatch/multistopwatch.pyw
+

@@ -1,0 +1,3 @@
+# echo "$1/tmp"
+DIR=vip
+tar --exclude="$DIR/tmp" --exclude="$DIR/log" --exclude="$DIR/node_modules" --exclude="$DIR/mylog.out" --exclude="$DIR/tmp" -zcvf ${DIR}__`date +%Y-%m-%d__%H-%M`.tgz $DIR

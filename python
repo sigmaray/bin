@@ -1,0 +1,3 @@
+#!/bin/sh
+# java -cp "$HOME/apps/clojure/*:$PWD" clojure.main "$@"
+python2 "$@"

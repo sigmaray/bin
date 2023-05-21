@@ -1,0 +1,7 @@
+count=5
+for i in $(seq $count); do
+    # command
+    # echo $i
+    amixer -D pulse -c $i set PCM 53%
+    # echo ''
+done

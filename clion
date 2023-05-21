@@ -1,0 +1,5 @@
+# $HOME/apps/RubyMine-2020.1.4/bin/rubymine.sh
+# /bin/bash -i -c "$HOME/apps/RubyMine-2020.1.4/bin/rubymine.sh" %f
+/bin/bash -i -c "$HOME/apps/clion-2022.1.3/bin/clion.sh" %f
+
+
