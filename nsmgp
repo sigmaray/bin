@@ -1,6 +1,7 @@
 #!/bin/sh
 
-noh /usr/share/smartgit/bin/smartgit.sh `pwd` &
+# noh /usr/share/smartgit/bin/smartgit.sh `pwd` &
+noh ~/r/apps/smartgit/bin/smartgit.sh `pwd` &
 
 
 

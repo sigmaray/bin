@@ -1,2 +1,2 @@
 #!/bin/sh
-"$HOME/apps/sublime_text/sublime_text" "$@"
+"$HOME/r/apps/sublime_text/sublime_text" "$@"

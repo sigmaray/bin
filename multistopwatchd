@@ -1,2 +1,3 @@
 #!/bin/sh
-python3 $HOME/myprojects/multipstopwatch/multistopwatch.py
+python3 $HOME/r/myprojects/multipstopwatch/multistopwatch.py
+

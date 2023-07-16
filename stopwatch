@@ -1,4 +1,4 @@
 #!/bin/sh
 
-~/r/myprojects/pyqtstopwatch/.venv/bin/python3 $HOME/r/myprojects/pyqtstopwatch/stopwatch.pyw
+python3 $HOME/r/stable/pyqtstopwatch/stopwatch.pyw
 # ~/myprojects/pyqtstopwatch/.venv/bin/python3 $HOME/myprojects/pyqtstopwatch/stopwatch.pyw

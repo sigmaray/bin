@@ -1,0 +1,10 @@
+#!/bin/sh
+
+python3 $HOME/r/stable/pyqtstopwatch/timer.pyw
+# ~/stable/pyqtstopwatch/.venv/bin/python3 $HOME/stable/pyqtstopwatch/timer.pyw
+
+
+
+
+
+
