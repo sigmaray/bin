@@ -1,5 +1,0 @@
-# google-chrome-beta --proxy-server="http://sigmaray.com:4128"
-google-chrome-beta --proxy-server="socks5://linode.sigmaray.com:4080"
-
-
-

@@ -1,1 +1,0 @@
-exec rlwrap -r -q '\"' -b "(){}[],^%#@\";:'" "$HOME/bin/cljs" "$@"

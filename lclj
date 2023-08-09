@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-exec rlwrap -r -q '\"' -b "(){}[],^%#@\";:'" "$HOME/bin/clj" "$@"

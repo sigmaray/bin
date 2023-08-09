@@ -1,6 +1,0 @@
-# echo "$1/tmp"
-DIR=elysium3
-# tar --exclude="$DIR/tmp" --exclude="$DIR/log" --exclude="$DIR/node_modules" --exclude="$DIR/mylog.out" --exclude="$DIR/tmp" -zcvf $1__`date +%Y-%m-%d__%H-%M__$2`.tgz $DIR
-
-
-tar --exclude="$DIR/tmp" --exclude="$DIR/log" --exclude="$DIR/node_modules" --exclude="$DIR/mylog.out" --exclude="$DIR/tmp" -zcvf ${DIR}__`date +%Y-%m-%d__%H-%M`.tgz $DIR
