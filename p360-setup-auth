@@ -1,1 +1,0 @@
-rails runner ~/bin/p360-setup-auth.rb

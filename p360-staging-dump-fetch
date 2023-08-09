@@ -1,5 +1,0 @@
-gcloud compute scp player360-aio-stg-01-europe-west2-a-001:~/dumps/`date +%Y-%m-%d`.se_staging.gtid-off.tar.gz /media/foobar/Elements/dumps/ --project mg-atlas-dev
-tar -xzf /media/foobar/Elements/dumps/`date +%Y-%m-%d`.se_staging.gtid-off.tar.gz --directory /media/foobar/Elements/dumps/
-
-gcloud compute scp player360-aio-stg-01-europe-west2-a-001:~/dumps/`date +%Y-%m-%d`.se_staging.mongo.dump.tar.gz /media/foobar/Elements/dumps/ --project mg-atlas-dev;
-tar -xzf /media/foobar/Elements/dumps/`date +%Y-%m-%d`.se_staging.mongo.dump.tar.gz --directory /media/foobar/Elements/dumps/
